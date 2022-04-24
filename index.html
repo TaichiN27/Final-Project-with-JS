@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="/final_project.css">
+</head>
+<body>
+    <button type="button">Register</button>
+    <div class="regiModal">
+        <div class="regiModal_box">
+            <form action="#">
+                ID: <input type="text"><br>
+                Username: <input type="text" id="name"><br>
+                Email: <input type="email" id="email"><br>
+                Password: <input type="password" id="password"><br>
+                <!-- GPA: <input type="text" id="gpa" maxlength="3"><br> -->
+
+                <input type="radio" name="example" value="English" checked>English classes
+                <input type="radio" name="example" value="Career">Career classes
+                <select name="courses" id="courses-select">
+                </select>
+                <button type="button" onclick="confirmForm(this);">Registration</button>
+            </form>
+        </div>
+    </div>
+
+    <button type="button">LOGIN</button>
+    <div class="loginModal">
+        <div class="loginModal_box">
+            <form action="">
+                Username: <input type="text" placeholder="Username" class="loginform"><br>
+                Password: <input type="password" placeholder="password" class="loginform"><br>
+                <input type="button" value="LOGIN" onclick="confirmLoginForm(this);">
+            </form>
+        </div>
+    </div>
+    <body>
+
+</body>
+<script src="/final_project.js"></script>
+</html>
